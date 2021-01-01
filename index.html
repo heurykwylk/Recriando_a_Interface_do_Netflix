@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+        <!--responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+        <!-- owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+        <title>CLONEFLIX</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <h2 class="logo">TABAJARAFLIX</h2>
+                <nav>
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Minha Lista</a>   
+                </nav>
+            </div>
+        </header>
+
+        <main>        
+            <div class="filme-principal">
+                <div class="container">                
+                    <img class="titulo" src="img/logoshe.png"/>              
+                    <p class="descricao">
+                        2020 | 16 anos | 1h 57 min | Suspense de ação <br><br>
+                        Em Bangladesh, o mercenário Tyler Rake luta para sobreviver durante a missão para resgatar o filho de um chefão do crime.
+                        <br></p>              
+                    <div class="botoes">
+                        <a href="#abrirModal">
+                            <button role="button" class="botao" id="roxo">
+                                <i class="fas fa-play"></i>
+                                ASSISTIR
+                            </button>
+                        </a>
+                        <a href="#abrirModal2">
+                            <button role="button" class="botao">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </a>
+                    </div>          
+                </div>
+            </div>
+        </main>
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80242724" target="_blank"><img class="box-filme" src="img/mini1.jpg" alt="Imagem do seriado Warrior Nun"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80238357" target="_blank"><img class="box-filme" src="img/mini2.jpg" alt="Imagem do seriado a ordem"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80100172" target="_blank"><img class="box-filme" src="img/mini3.jpg" alt="Imagem do seriado Dark"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80074220" target="_blank"><img class="box-filme" src="img/mini4.jpg" alt="Imagem do seriado 3%"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=KK8FHdFluOQ" target="_blank"><img class="box-filme" src="img/mini5.jpg" alt="Imagem do Live Action Mulan"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80154610" target="_blank"><img class="box-filme" src="img/mini6.jpg" alt="Imagem do seriado de Rain"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/title/80223989" target="_blank"><img class="box-filme" src="img/mini7.jpg" alt="Imagem do seriado Chilling Adventures of Sabrina"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80057281" target="_blank"><img class="box-filme" src="img/mini8.jpg" alt="Imagem do seriado Stranger Things"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/title/80221553" target="_blank"><img class="box-filme" src="img/mini9.jpg" alt="Imagem da animação KIPO"/></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80186863" target="_blank"><img class="box-filme" src="img/mini10.jpg" alt="Imagem do seriado the umbrella"/></a>
+                </div>
+            </div>
+        </div>
+
+        <!--js no final para não dar problemas ao carregar a página-->
+        <script src="https://kit.fontawesome.com/ec9b0f5c8c.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+
+        <div id="abrirModal" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">X</a>
+            <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/GMKKq_bYd0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal2" class="modal">            
+            <a href="#fechar" title="Fechar" class="fechar">X</a>
+                <img src="img/logoshe.png"/>
+                <p>Ficção policial, Ação, Suspense, Mistério</p>
+            
+                    Número de temporadas: 5<br>            
+                Emissora original: National Broadcasting Company</p>
+                <p>Primeiro episódio: 21 de setembro de 2015<br>
+                    Episódio final: 23 de julho de 2020</p><br>
+                <h3>Elenco:</h3>
+                <p>Jaimie Alexander, Sullivan Stapleton, Ashley Johnson, Audrey Esparza, Rob Brown…</p>
+            </div>       
+        </div>
+        <footer id="rodape">
+                <p>Copyright &copy; 2020 - by Heuryk Wylk<br></p>
+                <p><a href="https://www.linkedin.com/in/heuryk-wylk-a994326b/" target="_blank">LinkedIn</a> | <a href="https://github.com/heurykwylk/" target="_blank">GitHub</a></p>
+        </footer>
+    </body>
+</html>
